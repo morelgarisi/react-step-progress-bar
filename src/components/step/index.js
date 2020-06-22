@@ -55,7 +55,7 @@ export class Step extends React.Component<StepProps> {
     const safePosition = getSafePercent(position);
 
     let style = {
-      left: `${safePosition}%`,
+      right: `${safePosition}%`,
       transitionDuration: `${transitionDuration}ms`,
     };
 
